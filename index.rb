@@ -1,4 +1,8 @@
+
 require_relative 'club'
+
+require_relative 'bar'
+
 require_relative 'girl'
 require_relative 'tinder'
 
@@ -12,8 +16,11 @@ while response = gets.strip
         puts "You grab your phone."
         break
     elsif response == "2"
+
         puts "You grab your finest duds and head out"
         club
+        bar
+
         break
     elsif response != "1" || response != "2" 
         puts "Wrong answer bro!  Hit it again."
