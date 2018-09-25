@@ -1,4 +1,7 @@
 require_relative 'club'
+require_relative 'girl'
+require_relative 'tinder'
+
 
 puts "You just had a long week, it's Friday night and you've decided you want find your one 'true love'.  What you want to do playa?"
 puts "1. Social Media"
